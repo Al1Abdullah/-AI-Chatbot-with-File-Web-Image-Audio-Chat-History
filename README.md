@@ -1,21 +1,30 @@
-# AI Multimodal Chatbot with FastAPI & Gradio
+# 🧠 AI Chatbot with File, Web, OCR & Audio RAG (FastAPI + Gradio)
 
-This project is a multi-modal AI chatbot powered by Groq’s LLaMA 3 model, FastAPI, and Gradio. It allows users to:
+An AI assistant built with FastAPI and Gradio that can:
+- Answer questions from uploaded `.txt`, `.pdf`, `.docx`, `.csv` files.
+- Extract and use text from websites.
+- Perform OCR on images using Tesseract.
+- Transcribe audio using OpenAI's Whisper.
+- Respond using Groq's LLaMA models.
 
-- Ask questions based on uploaded files (PDF, TXT, DOCX, CSV)
-- Chat with websites using URL-based content extraction
-- Extract text from uploaded images (OCR)
-- Transcribe speech from audio files (Whisper)
+## 🚀 Features
+- Chat with documents
+- RAG from URLs
+- OCR from images
+- Audio transcription
+- Chat history memory
 
-## Features
+## 🛠️ Tech Stack
+- FastAPI
+- Gradio
+- Whisper
+- Tesseract OCR
+- LangChain
+- Groq LLaMA
 
-- Uses Groq LLM for accurate responses
-- RAG-enabled for contextual file and web-based Q&A
-- OCR via Tesseract
-- Audio transcription using OpenAI Whisper
-- Beautiful UI built with Gradio
-- FastAPI-based backend APIs
+## 📦 Setup Instructions
 
-## Setup Instructions
-
-Coming soon…
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
